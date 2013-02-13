@@ -10,6 +10,9 @@ import:
 - from dmon import *
 
 usage:
+- dmon.start(dir, handler_list)
+
+example:
 ```python
 #!/usr/bin/env python
 from subprocess import call
