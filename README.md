@@ -4,7 +4,7 @@ nutshell:
 - recursively watches a directory
 - create, update, delete events
 - runs on linux and osx
-- custom event implementation
+- custom handler implementation
 
 import:
 - from dmon import *
