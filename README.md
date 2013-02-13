@@ -7,10 +7,10 @@ nutshell:
 - custom event implementation
 
 import:
-from dmon import *
+- from dmon import *
 
-example (dmonake):
-//_________________________________________
+usage:
+```python
 #!/usr/bin/env python
 from subprocess import call
 import os
@@ -60,4 +60,4 @@ class Dmonake:
 
 if __name__ == '__main__':
     dmon.start(sys.argv[1], [Dmonake()])
-//_________________________________________
+```
