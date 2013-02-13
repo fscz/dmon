@@ -18,7 +18,6 @@ example:
 from subprocess import call
 import os
 import sys
-sys.path.append(os.getcwd())
 import subprocess
 from dmon import *
 
