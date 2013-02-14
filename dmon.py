@@ -65,7 +65,7 @@ class Dmon:
         elif 'linux' in sys.platform.lower():
             self._observer.stop()
 
-_dmon = None
+
 def start(dir, handlers):
     _dmon = Dmon(dir, handlers)
     thread.start_new_thread(_dmon.start, ())
